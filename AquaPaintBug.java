@@ -316,7 +316,6 @@ public class AquaPaintBug extends JPanel {
 
       @Override
       public void paint(Graphics g, JComponent c) {
-        super.paint(g, c);
         if (blurred) {
           System.out.printf("blurred Paint %s%n", printCounter.incrementAndGet()); // NON-NLS
           int w = c.getWidth() * displayScale;
